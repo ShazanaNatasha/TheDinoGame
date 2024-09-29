@@ -102,7 +102,6 @@ public class MainCharacter {
 		downRunAnim.updateFrame();
 		
 		
-		// SCORING || I HAVE NO IDEA HOW THIS WORKS
 		if ((state == NORMAL_RUN || state == JUMPING) && System.currentTimeMillis() - lastScoreTime >= SCORE_INTERVAL) {
 			score++;
             lastScoreTime = System.currentTimeMillis();
